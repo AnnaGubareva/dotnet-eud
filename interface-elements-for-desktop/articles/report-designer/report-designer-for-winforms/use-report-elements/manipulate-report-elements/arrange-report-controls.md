@@ -12,33 +12,33 @@ The following tools allow you to control report elements' size, location, alignm
 	
 * **Layout Toolbar**
 	
-	You can align report controls using the **Layout** toolbar tab.
+	The **Layout** toolbar tab enables you to align report controls to each other, change the report element size, change the stacked elements' order and so on.
 
 * **Snapping**
 	
-	A report's **Snapping Mode** property defines whether automatic report control snapping is enabled and allows you to switch between snapping to a grid and/or snap lines.
+	Use the **Snapping** toolbar group or a report's **Snapping Mode** property to enable automatic report control snapping to a grid and/or snap lines.
 	
 	* **Snap Grid**
 		
-		The report's editing surface displays a visual grid that allows you to determine elements' size and location in a report. Use the **Snap Grid Size** and **Snap Grid Step Count** properties to customize the grid's settings.
+		The design surface displays a visual grid that allows you to determine elements' size and location in a report. Use the **Snap Grid Size** and **Snap Grid Step Count** properties to customize the grid's settings.
 		
-		You can hide the grid by setting the **Draw Grid** property to **false**.
+		To hide the grid, disable the **Grid Lines** option in the toolbar's **View** tab or set a report's **Draw Grid** property to **false**.
 		
 		> [!NOTE]
-		> To select the [measurement units](../../configure-design-settings/change-a-report's-measurement-units.md) applied to the grid size, use the **Report Unit** property.
+		> Use the **Report Unit** property to select the [measurement units](../../configure-design-settings/change-a-report's-measurement-units.md) applied to the grid size.
+						
+		Relocating a report control with the mouse or ARROW keys automatically aligns the control to the nearest grid cell.
+
+		You can use the **Align to Grid** toolbar button or context menu item to align the selected controls to the grid's cells.
 		
-		Use the context menu to align the selected controls to the grid's cells.
-				
-		Relocating a report control using the mouse or ARROW keys automatically aligns it to the nearest grid cell.
-		
-		Hold down ALT when using the mouse and CTRL when using the keyboard to avoid snapping to the grid when moving or resizing controls.
+		You can temporarily ignore snapping to the grid when you move and resize controls. To do this, hold down ALT if you use the mouse and CTRL if you use the keyboard.
 
 	* **Snap Lines**
 		
-		The Report Designer displays snap lines when you move or resize report controls, which enables you to align these controls to other report elements.
+		The Report Designer displays snap lines when you move or resize report controls. These lines appear around the report controls and indicate the distance to other report elements (controls and bands).
 				
-		When you move a report control using the ARROW keys or resize it by pressing SHIFT+ARROW, this control is aligned to the nearest report element in that direction using snap lines.
+		When you use the ARROW keys to move a report control or press SHIFT+ARROW to resize the control, it is aligned to the nearest report element in that direction based on snap lines.
 		
-		To maintain a uniform distance between elements in a report, use report elements' **Snap Line Margin** property and the band's or panel's **Snap Line Padding** property.
+		A report control's **Snap Line Margin** property and a band's or panel's **Snap Line Padding** property allows you to maintain a uniform distance between elements in a report.
 		
-		Hold down ALT when using the mouse and CTRL when using the keyboard to avoid snapping controls that are being relocated or resized.
+		Hold down ALT if you use the mouse and CTRL if you use the keyboard to avoid snapping controls that you relocated or resize.
