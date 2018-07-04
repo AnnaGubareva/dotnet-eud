@@ -20,7 +20,7 @@ Use the following controls to display text in a report:
 
 * [Label](../use-basic-report-controls/label.md)
 	
-	Displays plain text in a report. You can customize the label's font settings only.
+	Displays plain text in a report. 
 
 	![](../../../../../images/eurd-win-display-text-using-labels.png)
 	
