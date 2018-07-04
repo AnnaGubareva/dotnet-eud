@@ -5,22 +5,22 @@ author: Anna Gubareva
 # Add Controls to a Report
 
 ## Add Report Controls
-To display a data field's value in your report, drag the corresponding item from the [Field List](../../report-designer-tools/ui-panels/field-list.md) and drop it onto the report's detail band. This creates a new report control of appropriate type bound to the corresponding field.
+To display a data field's value in your report, drag the corresponding item from the [Field List](../../report-designer-tools/ui-panels/field-list.md) and drop it onto the report's detail band. This creates a new report control bound to the corresponding field.
 
 ![](../../../../../images/eurd-win-drop-field-from-field-list.png)
 
-You can also use the [Toolbox](../../report-designer-tools/toolbox.md) to add other controls to your report and display various content, such as text, images, charts, barcodes, and so on.
+You can also use the [Toolbox](../../report-designer-tools/toolbox.md) to add other controls to your report and display content such as text, images, charts, barcodes, and so on.
 
 ![](../../../../../images/eurd-win-drop-report-control-from-toolbox.png)
 
-This document describes how to add the most commonly used controls to a report. See [Use Report Controls](../../use-report-controls.md) for a complete list of the available controls.
+This document describes how to add the most commonly used controls to a report. See [Use Report Controls](../../use-report-controls.md) for a complete list of available controls.
 
 ## Display Text
 Use the following controls to display text in a report:
 
 * [Label](../use-basic-report-controls/label.md)
 	
-	Displays plain text in a report. You can customize the font settings for a label's entire content only.
+	Displays plain text in a report. You can customize the label's font settings only.
 
 	![](../../../../../images/eurd-win-display-text-using-labels.png)
 	
@@ -46,13 +46,13 @@ Use the following controls to display text in a report:
 	![](../../../../../images/eurd-win-display-text-using-character-comb.png)
 	
 
-Double-click any of these controls to invoke an in-place editor where you can enter text and format it.
+Double-click any of these controls to invoke an in-place editor where you can enter and format text.
 
 ![](../../../../../images/eurd-win-display-text-in-place-editor.png)
 
-Press CTRL+Enter to submit text changes and close this mode.
+Press CTRL+Enter to submit changes and close this mode.
 
-Use the corresponding toolbar elements to access the selected control's font and alignment settings.
+You can use the corresponding toolbar elements to access the selected control's font and alignment settings.
 
 ![](../../../../../images/eurd-win-display-text-formatting-toolbar.png)
 
@@ -84,7 +84,7 @@ Labels and other text-oriented controls can display the following content:
 
 	![](../../../../../images/eurd-win-report-control-mail-merge-content.png)
 	
-	You can select a field in the in-pace editor and use the **Format String** property in the control's smart tag to format this field's value.
+	You can select a field in the in-place editor and use the **Format String** property in the control's smart tag to format this field's value.
 
 	![](../../../../../images/eurd-win-report-control-mail-merge-format-string.png)
 
