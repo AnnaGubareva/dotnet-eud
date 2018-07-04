@@ -8,7 +8,7 @@ Your report layout should meet the following requirements to correctly print and
 
 * **Avoid intersecting controls**
 	
-	The Report Designer highlights intersecting report controls to warn you that the report layout can be corrupted when it is exported.
+	The Report Designer highlights intersecting report controls to warn you that the report layout can be exported incorrectly to HTML, RTF, DOCX, XLS, XLSX, CSV and TXT formats.
 
 	![](../../../../../images/eurd-win-report-controls-export-warning.png)
 	
