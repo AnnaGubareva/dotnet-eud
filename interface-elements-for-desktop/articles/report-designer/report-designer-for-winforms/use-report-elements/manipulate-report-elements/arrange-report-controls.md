@@ -14,7 +14,7 @@ The following tools allow you to control report elements' size, location, alignm
 	
 * **Layout Toolbar**
 	
-	The **Layout** toolbar tab enables you to align report controls to each other, change the report element size, change the stacked elements' order, and so on.
+	The **Layout** toolbar tab enables you to align report controls to each other, change the report element's size, change the stacked elements' order, and so on.
 
 	![](../../../../../images/eurd-win-toolbar-layout-tab.png)
 
