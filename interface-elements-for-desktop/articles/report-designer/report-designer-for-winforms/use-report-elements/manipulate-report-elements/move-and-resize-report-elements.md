@@ -20,6 +20,6 @@ Drag a band's header strip to resize the band.
 
 ![](../../../../../images/eurd-win-resize-report-band.png)
 
-You can also press SHIFT+ARROW or CTRL+SHIFT+ARROW to resize a selected element with the keyboard.
+You can also press SHIFT+ARROW or CTRL+SHIFT+ARROW to resize a selected element.
 
-See [Arrange Report Controls](arrange-report-controls) to learn about tools that help you align report controls to each other and layout edges.
+See [Arrange Report Controls](arrange-report-controls) for information about tools that help you align report controls to each other and layout edges.
