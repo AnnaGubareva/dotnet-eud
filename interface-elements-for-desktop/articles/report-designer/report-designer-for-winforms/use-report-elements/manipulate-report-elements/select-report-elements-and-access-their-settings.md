@@ -21,11 +21,11 @@ Smart tags can also contain context links that enable you to perform various act
 
 ![](../../../../../images/eurd-win-report-smart-tag.png)
 
-The [Toolbox](../../report-designer-tools/toolbox.md) provides a corresponding contextual tab when you select a report control. This tab allows you to specify settings and perform actions applicable to the selected element's type.
+The [Toolbar](../../report-designer-tools/toolbar.md) provides a corresponding contextual tab when you select a report control. This tab allows you to specify settings and perform actions applicable to the selected element's type.
 
 ![](../../../../../images/eurd-win-report-control-contextual-tab.png)
 
-You can use the Property Grid to access the selected element's settings.
+You can use the Property Grid to access the whole set of settings that the selected element supports.
 
 ![](../../../../../images/eurd-win-report-control-property-grid.png)
 
