@@ -31,17 +31,16 @@ The following tools allow you to control report elements' size, location, alignm
 		To hide the grid, disable the **Grid Lines** option in the toolbar's **View** tab or set a report's **Draw the Grid** property to **false**.
 
 		![](../../../../../images/eurd-win-toolbar-show-grid-lines.png)
-		
-		> [!NOTE]
-		> Use the **Report Unit** property to select the [measurement units](../../configure-design-settings/change-a-report's-measurement-units.md) applied to the grid size.
-						
+								
 		Relocating a report control with the mouse or ARROW keys automatically aligns the control to the nearest grid cell.
 
 		You can use the **Align to Grid** toolbar button or context menu item to align the selected controls to the grid's cells.
 
 		![](../../../../../images/eurd-win-align-to-grid-context-menu-item.png)
 		
-		You can temporarily ignore snapping to the grid when you move and resize controls. To do this, hold down ALT if you use the mouse and CTRL if you use the keyboard.
+		You can temporarily ignore snapping when you move and resize controls:
+		* hold down ALT if you move or resize controls using the mouse;
+		* hold down CTRL if you move or resize controls using the keyboard.
 
 	* **Snap Lines**
 		
@@ -54,5 +53,8 @@ The following tools allow you to control report elements' size, location, alignm
 		A report control's **Snap Line Margin** property and a band's or panel's **Snap Line Padding** property allows you to maintain a uniform distance between elements in a report.
 
 		![](../../../../../images/eurd-win-snap-line-margin-and-padding.png)
+
+		To avoid snapping controls, do the following: 
+		* hold down ALT if you move or resize controls using the mouse;
+		* hold down CTRL if you move or resize controls using the keyboard.
 		
-		Hold down ALT if you use the mouse and CTRL if you use the keyboard to avoid snapping controls that you relocate or resize.
