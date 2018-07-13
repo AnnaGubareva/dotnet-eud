@@ -4,7 +4,7 @@ author: Anna Gubareva
 ---
 # Draw Cross-Band Lines and Boxes
 
-Cross-band controls allow you to draw lines and rectangles through several [report bands](../../introduction-to-banded-reports.md) in contrast to [Line](draw-lines.md), [Shape](draw-shapes.md) and [Panel](../use-basic-report-controls/panel.md) controls that you can use within a single band only.
+Cross-band controls allow you to draw lines and rectangles through several [report bands](../../introduction-to-banded-reports.md).
 
 The Report Designer provides the following two cross-band controls:
 
