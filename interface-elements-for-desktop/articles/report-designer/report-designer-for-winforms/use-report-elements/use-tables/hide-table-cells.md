@@ -26,7 +26,7 @@ In the invoked **Add New Parameter** dialog, specify the parameter's name and de
 * > [!Warning]
     > Use the approach below if expression bindings **are not enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) does not provide the **Expressions** ![](../../../../../images/eurd-win-property-grid-expressions-icon.png) tab ).
 
-    Create a [formatting rule](../../shape-report-data/shape-data-data-bindings/conditionally-supress-controls.md), specify a logical condition to hide a cell and set the **Visible** property to **False** as shown below. For a report to display properly, you should apply the created rule to cells both in the Detail band and the Page Header band.
+    Create a [formatting rule](../../shape-report-data/shape-data-data-bindings/conditionally-supress-controls.md), specify a logical condition to hide a cell and set the **Visible** property to **False** as shown below. For a report to display correctly, apply the created rule to the cells in the Detail band and the Page Header band.
 
     ![](../../../../../images/eurd-win-hide-table-cell-using-formatting-rule.png)
 
@@ -34,21 +34,21 @@ The **Process Hidden Cell Mode** property allows you to define how to distribute
 
 ![](../../../../../images/eurd-win-table-process-hidden-cell-mode.png)
 
-The image below illustrates how an original table looks like:
+The image below illustrates how the original table looks like:
 
 ![](../../../../../images/eurd-win-table-hidden-cell-mode-initial-layout.png)
 
 The following modes are available to process hidden cells:
 
-* **StretchPreviousCell** - A cell located to the left of the hidden cell is stretched to occupy the available space. If the hidden cell is the first in the row, the next cell is stretched.
+* **StretchPreviousCell** - A cell to the left of the hidden cell is stretched to occupy the available space. If the hidden cell is the first in the row, the next cell is stretched.
 
     ![](../../../../../images/eurd-win-table-hidden-cell-mode-stretch-previous-cell.png)
 
-* **StretchNextCell** - A cell located to the right of the hidden cell is stretched to occupy the available space. If the hidden cell is the last in the row, the previous cell is stretched.
+* **StretchNextCell** - A cell to the right of the hidden cell is stretched to occupy the available space. If the hidden cell is the last in the row, the previous cell is stretched.
 
     ![](../../../../../images/eurd-win-table-hidden-cell-mode-stretch-next-cell.png)
 
-* **ResizeCellsEqually** - All visible cells are resized to equally divide the space that a hidden cell reserved.
+* **ResizeCellsEqually** - All visible cells are resized to divide the space that a hidden cell reserved equally.
 
     ![](../../../../../images/eurd-win-table-hidden-cell-mode-resize-cells-equally.png)
 
@@ -60,7 +60,7 @@ The following modes are available to process hidden cells:
 
     ![](../../../../../images/eurd-win-table-hidden-cell-mode-descrease-table-width.png)
 
-* **LeaveEmptySpace** (the default mode) - An empty space remains at a hidden cell's location and other cells are not affected.
+* **LeaveEmptySpace** (the default mode) - A space remains at a hidden cell's location, and other cells are not affected.
 
     ![](../../../../../images/eurd-win-table-hidden-cell-mode-leave-empty-space.png)
 
