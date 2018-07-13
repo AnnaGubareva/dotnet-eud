@@ -6,7 +6,7 @@ author: Anna Gubareva
 
 ## Insert Table Rows and Columns
 
-Use the **Insert** group in the [toolbar](../../report-designer-tools/toolbar.md)'s **Table Tools** contextual tab or the **Insert** context menu items to add new rows and columns. The added cells inherit the source cells' size and appearance settings.
+You can use the **Insert** group in the [toolbar](../../report-designer-tools/toolbar.md)'s **Table Tools** contextual tab or the **Insert** context menu items to add new rows and columns. The added cells inherit the source cells' size and appearance settings.
 
 ![](../../../../../images/eurd-win-table-insert-commands.png)
 
@@ -18,7 +18,7 @@ Use the **Insert** group in the [toolbar](../../report-designer-tools/toolbar.md
 
 * **Insert Row Below**
 
-    Inserts a row below the current cell and shifts the existing rows down. This command increases the band height to accomodate all the rows, if there is no enough space under the table.
+    Inserts a row below the current cell and shifts the existing rows down. This command increases the band height to accommodate all the rows if there is not enough space under the table.
 
     ![](../../../../../images/eurd-win-table-insert-row-below.png)
 
@@ -30,7 +30,7 @@ Use the **Insert** group in the [toolbar](../../report-designer-tools/toolbar.md
 
 * **Insert Columns to Right**
 
-    Inserts a new column to the right of the current cell and shifts the rightmost columns to the right. This command proportionally descreases all columns' width if columns fit the right page edge.
+    Inserts a new column to the right of the current cell and shifts the rightmost columns to the right. This command proportionally decreases all columns' width if columns fit the right page edge.
 
     ![](../../../../../images/eurd-win-table-insert-column-to-right.png)
 
@@ -44,7 +44,7 @@ Use the **Insert** group in the [toolbar](../../report-designer-tools/toolbar.md
 
 * **Merge Cells**
 
-    Merges the selected cells into one cell. This command is available if the selection has a rectangle form. 
+    Merges the selected cells. This command is available if the selection has a rectangle form. 
 
     ![](../../../../../images/eurd-win-table-merge-cells.png)
 
