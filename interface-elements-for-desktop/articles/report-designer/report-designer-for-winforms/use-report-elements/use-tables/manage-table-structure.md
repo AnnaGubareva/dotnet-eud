@@ -30,7 +30,7 @@ You can use the **Insert** group in the [toolbar](../../report-designer-tools/to
 
 * **Insert Columns to Right**
 
-    Inserts a new column to the right of the current cell and shifts the rightmost columns to the right. This command proportionally decreases all columns' width if columns fit the right page edge.
+    Inserts a new column to the right of the current cell and shifts the rightmost columns to the right. This command decreases all columns' width proportionally to accommodate all the columns if there is not enough space to the right of the table.
 
     ![](../../../../../images/eurd-win-table-insert-column-to-right.png)
 
