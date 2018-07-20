@@ -4,7 +4,7 @@ author: Anna Gubareva
 ---
 # Link a Chart and a Pivot Grid
 
-This tutorial demonstrates how to use the Chart control to visualize data that the Pivot Grid control displays.
+This tutorial demonstrates how to use the Chart control to visualize the Pivot Grid control's data.
 
 ## Create a Pivot Grid
 
@@ -16,7 +16,7 @@ This tutorial demonstrates how to use the Chart control to visualize data that t
 
     ![](../../../../../images/eurd-win-pivot-grid-toolbar-add-data-source.png)
 
-3. Pass through the invoked [Data Source Wizard](../../report-designer-tools/data-source-wizard.md)'s pages to set up the data source. See the [Bind to Data](../../bind-to-data.md) section for more information.
+3. Navigate through the invoked [Data Source Wizard](../../report-designer-tools/data-source-wizard.md)'s pages to set up the data source. See the [Bind to Data](../../bind-to-data.md) section for more information.
 
     After the data source is created, the Pivot Grid's **Data Source** and **Data Member** properties are assigned automatically.
 
@@ -36,19 +36,19 @@ This tutorial demonstrates how to use the Chart control to visualize data that t
 
     ![](../../../../../images/eurd-win-add-chart-to-link-with-pivot-grid.png)
 
-2. After you drop the Chart, the **Chart Designer** is invoked automatically. Switch to the **Data** tab at the right of the Designer's window and choose the Pivot Grid in the dedicated drop-down list.
+2. The **Chart Designer** is invoked automatically after you drop the Chart onto the Detail band. Switch to the **Data** tab at the right of the Designer's window and choose the Pivot Grid in the drop-down list.
 
     ![](../../../../../images/eurd-win-chart-designer-pivot-grid-data-source.png)
 
-    This adjusts all the Chart's binding and layout settings autmatically. Make sure that **Series**, **Argument** and **Value** cells are filled with the corresponding fields correctly. Note that field values are generated based on the Pivot Grid's columns, rows and data items, respectively.
+    This adjusts all the Chart's binding and layout settings autmatically. Make sure that **Series**, **Argument** and **Value** cells are filled with the corresponding fields. Note that field values are generated based on the Pivot Grid's columns, rows, and data items.
 
     ![](../../../../../images/eurd-win-chart-designer-pivot-grid-result.png)
 
-3. Select the **Label** node under auto-generated series in the chart elements tree and switch to the **Options** tab. Disable the **Visibility** check box to avoid the series labels' overlapping.
+3. Select the **Label** node under auto-generated series in the chart elements tree and switch to the **Options** tab. Disable the **Visibility** check box to avoid overlapping series labels.
 
     ![](../../../../../images/eurd-win-chart-designer-auto-series-label-visibility.png)
 
-4. (optionally) You can customize various settings that determine the common behavior for a linked Chart and Pivot Grid pair. To do this, use the Chart's **Pivot Grid Data Source Options** property. This property is synchronized with the Pivot Grid's **Options Chart Data Source** property.
+4. (optionally) You can customize various settings that determine a linked Chart and Pivot Grid pair's common behavior. To do this, use the Chart's **Pivot Grid Data Source Options** property. This property is synchronized with the Pivot Grid's **Options Chart Data Source** property.
 
     ![](../../../../../images/eurd-win-chart-pivot-grid-data-source-options.png)
 
