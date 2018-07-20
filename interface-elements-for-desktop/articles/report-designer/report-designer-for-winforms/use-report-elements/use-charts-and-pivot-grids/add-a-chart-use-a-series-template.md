@@ -5,7 +5,7 @@ author: Anna Gubareva
 
 # Add a Chart (Use a Series Template)
 
-This document describes how to create a report with a **Chart** control bound to data. This means all series are created automatically based on a common template.
+This document describes how to create a report with a **Chart** control bound to data and generate all series automatically based on a common template.
 
 ![](../../../../../images/eurd-win-chart-auto-created-series-example.png)
 
